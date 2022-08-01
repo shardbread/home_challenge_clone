@@ -1,0 +1,29 @@
+# Pycharm
+.idea
+/docker
+
+# Environments
+.venv
+.env
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTest
+*/.pytest_cache/
+.DS_Store
+celerybeat*
+
+# mypy
+.mypy_cache/
+/shared
+.pytest_cache
+.coverage
